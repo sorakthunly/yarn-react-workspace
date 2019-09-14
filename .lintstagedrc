@@ -1,0 +1,10 @@
+{
+	"*.{js,jsx,ts,tsx}": [
+		"yarn eslint:fix",
+		"git add"
+	],
+	"*.{json,yml,md,css,html}": [
+		"yarn prettier:fix",
+		"git add"
+	]
+}
