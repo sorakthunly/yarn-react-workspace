@@ -4,6 +4,7 @@ A monorepo for multiple React applications and a shared component package. The s
 
 -   [Yarn workspace](https://yarnpkg.com/lang/en/docs/workspaces/) for three React applications and a shared package dependency
 -   Repo-wide linting with [ESLint](https://eslint.org/), [Typescript ESLint](https://github.com/typescript-eslint/typescript-eslint) and [Prettier](https://prettier.io/)
+-   Pre-commit hook for automated linting with [Husky](https://www.npmjs.com/package/husky) and [Lint Staged](https://github.com/okonet/lint-staged)
 -   Enabled [Enzyme](https://airbnb.io/enzyme/) testing for every application and package
 -   Enabled [Storybook](https://storybook.js.org/) for the shared component package
 -   CICD pipeline set up with [Circle CI](https://circleci.com/) and [Firebase](https://firebase.google.com/docs/hosting) hosting (In-Progress)
