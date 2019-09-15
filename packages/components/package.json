@@ -3,8 +3,7 @@
 	"version": "0.1.0",
 	"main": "./src/index.ts",
 	"scripts": {
-		"build": "react-scripts build",
-		"build:storybook": "build-storybook",
+		"build": "build-storybook -o build",
 		"eject": "react-scripts eject",
 		"start": "start-storybook -p 6006",
 		"test": "react-scripts test"

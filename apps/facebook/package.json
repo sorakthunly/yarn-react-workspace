@@ -37,6 +37,7 @@
 		"@typescript-eslint/parser": "^2.2.0",
 		"enzyme": "^3.10.0",
 		"enzyme-adapter-react-16": "^1.14.0",
+		"firebase-tools": "^7.3.2",
 		"jest-enzyme": "^7.1.1",
 		"typescript": "3.6.3"
 	}
