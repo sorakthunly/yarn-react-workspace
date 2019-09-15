@@ -1,7 +1,8 @@
+import './App.css';
 import React from 'react';
 import { BrandTitle } from 'components';
+
 import logo from './logo.svg';
-import './App.css';
 
 const App: React.FC = () => {
 	return (

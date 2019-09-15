@@ -1,5 +1,6 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
+
 import BrandTitle from './BrandTitle';
 
 storiesOf('Brand Title', module)

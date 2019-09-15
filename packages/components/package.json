@@ -2,30 +2,11 @@
 	"name": "components",
 	"version": "0.1.0",
 	"main": "./src/index.ts",
-	"dependencies": {
-		"styled-components": "^4.3.2"
-	},
-	"devDependencies": {
-		"@storybook/react": "^5.1.11",
-		"@storybook/theming": "^5.2.0",
-		"@types/jest": "24.0.18",
-		"@types/node": "12.7.5",
-		"@types/react": "16.9.2",
-		"@types/react-dom": "16.9.0",
-		"@types/storybook__react": "^4.0.2",
-		"@types/styled-components": "^4.1.19",
-		"babel-loader": "^8.0.6",
-		"react": "^16.9.0",
-		"react-dom": "^16.9.0",
-		"react-scripts": "3.1.1",
-		"typescript": "3.6.3"
-	},
 	"scripts": {
 		"build": "react-scripts build",
 		"build:storybook": "build-storybook",
 		"eject": "react-scripts eject",
-		"start": "react-scripts start",
-		"storybook": "start-storybook -p 6006",
+		"start": "start-storybook -p 6006",
 		"test": "react-scripts test"
 	},
 	"browserslist": {
@@ -39,5 +20,30 @@
 			"last 1 firefox version",
 			"last 1 safari version"
 		]
+	},
+	"dependencies": {
+		"react": "^16.9.0",
+		"react-dom": "^16.9.0",
+		"react-scripts": "3.1.1",
+		"styled-components": "^4.3.2"
+	},
+	"devDependencies": {
+		"@storybook/react": "^5.2.0",
+		"@storybook/theming": "^5.2.0",
+		"@types/enzyme": "^3.10.3",
+		"@types/enzyme-adapter-react-16": "^1.0.5",
+		"@types/jest": "24.0.18",
+		"@types/node": "12.7.5",
+		"@types/react": "16.9.2",
+		"@types/react-dom": "16.9.0",
+		"@types/storybook__react": "^4.0.2",
+		"@types/styled-components": "^4.1.19",
+		"@typescript-eslint/eslint-plugin": "^2.2.0",
+		"@typescript-eslint/parser": "^2.2.0",
+		"babel-loader": "^8.0.6",
+		"enzyme": "^3.10.0",
+		"enzyme-adapter-react-16": "^1.14.0",
+		"jest-enzyme": "^7.1.1",
+		"typescript": "3.6.3"
 	}
 }

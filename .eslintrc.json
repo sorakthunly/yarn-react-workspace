@@ -2,6 +2,8 @@
 	"extends": [
 		"eslint:recommended",
 		"plugin:@typescript-eslint/recommended",
+		"plugin:import/errors",
+		"plugin:import/typescript",
 		"plugin:prettier/recommended",
 		"plugin:react/recommended",
 		"prettier/@typescript-eslint"
@@ -12,9 +14,18 @@
 		"jest": true,
 		"node": true
 	},
+	"plugins": ["import"],
 	"rules": {
 		"@typescript-eslint/explicit-function-return-type": "off",
-		"react/prop-types": "off"
+		"import/order": [
+			"error",
+			{
+				"groups": ["external", "builtin", "internal", ["index", "parent", "sibling", "unknown"]],
+				"newlines-between": "always"
+			}
+		],
+		"react/prop-types": "off",
+		"sort-keys": "error"
 	},
 	"settings": {
 		"react": {
